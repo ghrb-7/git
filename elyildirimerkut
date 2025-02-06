@@ -78,3 +78,15 @@ identification comme d'habitude puis git pull
 
 et mtn nous devons faire pour la version mobile une nouvelle branche et un fichier pour
 
+git checkout -b versionmobile depuis le master
+une fois dedans 
+
+touch mobile
+git add mobile
+git commit -m "mobile"
+git push -u origin versionmobile
+
+id avec token etc...
+
+puis git pull pour ceux qui ne sont pas à jour.
+
