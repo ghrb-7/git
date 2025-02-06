@@ -1,0 +1,42 @@
+```shell
+git init
+```
+```shell
+git config user.email "lzn.ptr92300@gmail.com"
+git config user.name "ghrb-7"
+```
+```shell
+touch test
+```
+```shell
+git pull origin master
+```
+```shell
+git checkout -b html
+```
+```shell
+touch index
+```
+```shell
+nano index
+```
+```shell
+git add index
+git commit -m "index html"
+git push -u origin html
+```
+```shell
+git pull origin html
+```
+```shell
+git checkout master
+git branch css
+```
+```shell
+git checkout html
+git pull origin html
+git nano index
+git add
+git commit
+git push
+```
