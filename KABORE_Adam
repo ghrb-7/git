@@ -40,3 +40,9 @@ git add
 git commit
 git push
 ```
+```shell
+git pull origin vmobile
+```
+```shell
+git pull origin master
+```
