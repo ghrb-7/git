@@ -8,6 +8,7 @@
 	<a href="html/page2.html"></a>
 	<a href="html/page3.html></a>
     </head>
+<<<<<<< HEAD
     <body>
 	<header>head</header>
 	<nav>nav</nav>
@@ -16,3 +17,8 @@
 	<footer>footer</footer>
     </body>
 </html>
+=======
+<body> 
+
+</body>
+>>>>>>> a587eb71fcdf67dff0431c1b7311f5e3ff839910

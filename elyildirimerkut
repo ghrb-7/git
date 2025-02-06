@@ -1,0 +1,92 @@
+TP Test Git
+Erkut
+
+cd
+cd Documents
+mkdir git
+cd git
+git init
+
+git config user.email "erkut.elyildirim@efrei.net"
+git config user.name "Erkut10"
+
+git remote add origin https://github.com/ghrb-7/git.git
+git clone https://github.com/ghrb-7/git.git
+
+git pull origin master (Adam l'a créer on vérifie donc si ça marche)
+
+ls ( je vois bien le fichier test)
+
+je le modifie avec nano test et on vérifie si ça marche encore ( et ça marche)
+
+git add test
+git commit -m "commit"
+git push -u origin master 
+
+git checkout html
+git pull origin html
+
+nano index 
+
+git add index
+git commit -m "modification"
+git push -u origin html 
+
+et les autres font git pull origin html
+
+touch page2
+
+git add page2
+git commit -m "page2"
+git push -u origin html
+
+identification token etc..
+
+touch page3
+
+git add page2
+git commit -m "page3"
+git push -u origin html
+
+identification token etc..
+
+nano page2
+git add page2
+git commit -m "modification"
+git push -u origin html
+
+git checkout css
+git checkout html
+
+git pull origin html (pour voir les avancées des autres)
+
+nano page2 
+git add page2
+git commit -m "modification"
+git push -u origin html
+
+git checkout css
+ls (pour voir si le fichier style est bien présent)
+
+nano style on fait le css
+ensuite 
+git add style
+git commit -m "commit"
+git push -u origin css
+
+identification comme d'habitude puis git pull 
+
+et mtn nous devons faire pour la version mobile une nouvelle branche et un fichier pour
+
+git checkout -b versionmobile depuis le master
+une fois dedans 
+
+touch mobile
+git add mobile
+git commit -m "mobile"
+git push -u origin versionmobile
+
+id avec token etc...
+
+puis git pull pour ceux qui ne sont pas à jour.
+
