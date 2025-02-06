@@ -1,0 +1,76 @@
+Registre
+
+
+cd
+cd Documents
+
+Création du fichier “git”
+mkdir git
+cd git
+git init
+git remote add origin https://github.com/ghrb-7/git.git
+
+Connexion à Git
+git config -- user.email”hdeperval29@gmail.com”
+git config -- user.name”nouvii”
+
+Clonage du dépôt d’Adam
+git clone https://github.com/ghrb-7/git.git
+
+Configuration du site internet
+
+git pull origin html
+nano test 
+nano index
+git pull origin master
+git checkout
+git checkout master
+ls
+git pull origin master
+ls
+git checkout html
+git pull origin master
+git branch
+nano page 2
+git branch -a
+ls
+nano index
+git merge --abort
+ls
+git branch
+ls
+git pull origin master
+ls
+git checkout css
+git merge --abort
+git checkout css
+git checkout html
+ls
+git pull origin master
+ls
+git merge --abort
+ls
+rm mobile
+ls
+git merge --abort
+git branch vmobile
+
+Création de la branche “vmobile”
+
+git checkout vmobile
+
+Création du fichier “mobile”
+ 
+touch mobile
+nano mobile
+git add mobile
+
+git commit -m “mobile”
+git push -u origin vmobile
+git checkout html 
+
+Création de mon registre “Houenouvi_De-Perval”
+
+git checkout master
+touch Houenouvi_De-Perval
+nano Houenouvi_De-Perval
